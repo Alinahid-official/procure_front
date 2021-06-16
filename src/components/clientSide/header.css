@@ -1,0 +1,142 @@
+.heade{
+    padding: 1% 0;
+    background-color:purple;
+    color: white;
+    box-shadow: 0 5px 15px  #888888;
+}
+.one{
+    font-size: 30px;
+}
+.two input{
+    padding:5px 5px;
+   border-radius: 5px;
+   outline: none;
+   margin-right: 10px;
+}
+.two button{
+    padding:5px 15px;
+    border-radius: 5px;
+   color: white;
+   background-color : rgb(211, 19, 211);
+}
+
+li{
+    border:1px solid rgba(169, 101, 101, 0.299);
+    margin:10px 0;
+    width:80%;
+    padding:10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px  #888888;
+}
+
+.card_head{
+    display:flex;
+    justify-content:space-between;
+}
+.card_head a{
+    
+    padding: 0 15px;
+    padding-bottom: 5px;
+    font-size: 17px;
+    border-radius: 5px;
+}
+.blue{
+    background-color : rgb(31, 135, 209);
+}
+.red{
+    background-color : rgb(236, 84, 84);
+}
+.nod{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 15%;
+
+}
+.fa-frown-open{
+font-size:50px;
+padding :0 20px;
+}
+.wel{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 15%;
+
+}
+.fa-smile-beam{
+    font-size:50px;
+    padding :0 20px;  
+}
+.top{
+    margin-top:50px;
+
+}
+.alerts .col{
+    height: 100%;
+}
+.past{
+  
+    border-radius: 5px;
+    height:90%;
+    padding:10px 0;
+   
+}
+.curr{
+    background-color : rgba(247, 183, 243, 0.83);
+    border-radius: 5px;
+    height:90%;
+    padding:20px 30px;
+  
+}
+.admins{
+    border-radius: 5px;
+    height:90%;
+    padding:20px 30px;
+  
+}
+.alerts{
+    height:35rem;
+}
+.headal{
+    height:10%;
+    border-bottom:1px solid rgba(0, 0, 0, 0.265);
+    
+}
+.partal{
+    height:90%;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    overflow-y:scroll;
+    
+}
+.fa-check-circle{
+    padding:5px 5px;
+    color:green;
+    font-size: 20px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+  .errorer::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: rgb(250, 129, 99);
+    box-shadow: 0 0 10px rgba(238, 81, 94, 0.699)
+}

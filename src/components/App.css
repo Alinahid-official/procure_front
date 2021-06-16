@@ -1,0 +1,147 @@
+.login_form{
+ 
+  padding: 2% 0 ;
+  width:50%;
+border:1px solid rgba(128, 128, 128, 0.274);
+box-shadow:0 0 8px #c9c2c2;
+border-radius: 10px;
+}
+.detail_form{
+  height:70%;
+  padding: 3%  ;
+  width:35%;
+border:1px solid rgba(128, 128, 128, 0.274);
+box-shadow:0 0 8px #c9c2c2;
+border-radius: 10px;
+}
+.align_center{
+  text-align:center;
+}
+.box{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.fa-user-circle{
+  padding-bottom: 12%;
+}
+
+.field{
+  margin-bottom: 20px;
+  width: 50%;
+}
+.error{
+ border:1px solid red;
+ box-shadow: 0 0 5px rgba(238, 81, 94, 0.699);
+
+}
+.input {
+ width:100%;
+ height:40px;
+ transition:all 0.2s;
+  outline: none;
+  padding: 1% 2%;
+  border: 1px solid #DDDDDD;
+  border-radius:5px;
+}
+.input:focus,.input:active {
+  box-shadow: 0 0 5px #4bb386;
+  padding: 1% 2%;
+  border: 1px solid #4bb386;
+  border-radius:5px;
+}
+.input:focus + label:before {
+  color: #398463;
+}
+.input + label:before {
+  transition:all 0.2s;
+ position: relative;
+ left:20%;
+ top: -5px;
+  width:fit-content;
+   margin-top: -30px;
+  content: attr(placeholder);
+  display: block;	
+  pointer-events: none;
+  line-height: 1.25em;
+  color:#DDDDDD;
+ 
+}
+.input:focus + label:before,.input.active + label:before,.input:valid + label:before {
+  background: white;
+  padding: 0 1.5px;
+  color:#398463;
+  transform: translateY(calc((-1em - 0.5em) - 0.5px)) ;
+}
+ 
+.show1{
+  width: fit-content;
+  display: block;
+  position:relative;
+  color:rgb(236, 33, 50);
+ left:80%;
+ top:5px;
+ margin-top: -32px;
+  font-size: 20px;
+}
+.hide1{
+  display: none;
+}
+.span{
+
+ position: relative;
+ /* top:15px; */
+  margin: 20px 0;
+  color: red;
+  font-family: roboto;
+  font-weight: bold;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.flex_down{
+    flex-direction:column;
+}
+.flex_around{
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+.fa-user-plus{
+  
+      padding-bottom: 12%;
+  
+}
+.header{
+   padding:2% 0;
+   border:1px solid rgba(128, 128, 128, 0.274);
+   margin-bottom:50px;
+}
+
+.btn{
+  padding: 7px 25px;
+  border-radius: 50px;
+  margin: 20px 0;
+}
+.hide{
+  display: none;
+}
+a{
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 25px; 
+  font-size: 25px; 
+  transition: 0.3s;
+  background-color: rgb(119, 190, 238);
+}
+
+ul{
+  list-style: none
+}
+/* li{
+  padding: 20px 20px;
+  margin: 20px 0;
+  border: 1px solid rgb(109, 180, 228)
+} */
